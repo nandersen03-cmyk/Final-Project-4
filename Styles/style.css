@@ -1,0 +1,125 @@
+body{
+
+    background-color: rgb(101, 123, 183);
+      font-family: arial, verdana, times new roman, sans-serif;
+}
+
+h1{
+
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    color:black;
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.common{
+    background-color: white;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 15px;
+    right: 25px;
+    height: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+.nav{
+    left: 15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+
+.left{
+    top: 115px;
+    left: 15px;
+    width: 200px;
+    bottom: 40px;
+    font-weight: bold;
+    height: max-content;
+}
+
+
+.right{
+    top: 115px;
+    right: 25px;
+    width: 200px;
+    bottom: 40px;
+    font-weight: bold;
+    height: max-content;
+}
+
+
+.main{
+top: 115px;
+left: 230px;
+right: 240px;
+height: fit-content;
+text-align: center;
+font-size: 30px;
+
+
+}
+
+.footer{
+bottom: 5px;
+height: 25px;
+left: 15px;
+right: 25px;
+position:fixed;
+z-index: 1;
+text-align: center;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+
+.sidebar {
+  position: fixed;      
+  top: 0;
+  left: 0;              
+  width: 200px;
+  height: 100vh;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.iframe-row {
+  display: flex;
+  gap: 20px;          /* space between iframes */
+}
+
+.iframe-box {
+  width: 50%;         /* each takes half the row */
+  height: 400px;
+  border: none;
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Andersen - Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+
+                top: 5px;
+                left: 15px;
+                right: 25px;
+                height: 100px;
+                text-align: Left;
+                background-color: white;
+        }
+        .header h1 {
+            font-size: 42px;
+            margin: 0;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .contact {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            font-size: 16px;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: box-shadow 0.3s ease;
+        }
+        .section:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 24px;
+            color: #007bff;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-left: 4px solid #007bff;
+            padding-left: 15px;
+        }
+        .entry {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .entry:last-child {
+            border-bottom: none;
+        }
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .entry-header .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .entry-header .location {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+        }
+        .entry-header .date {
+            font-size: 14px;
+            color: #007bff;
+            font-weight: 500;
+        }
+        .job-details {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li:before {
+            content: "•";
+            color: #007bff;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .awards-list {
+            columns: 2;
+            column-gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 32px;
+            }
+            .container {
+                padding: 20px 10px;
+            }
+            .section {
+                padding: 20px;
+            }
+            .awards-list {
+                columns: 1;
+            }
+            .entry-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+    <header class="header">
+        <a href="index.html">Home</a>
+        <h1>Resume</h1>
+    </header>
+    <div class="container">
+        <div class="contact">
+            <strong>Nathan Andersen</strong><br>
+            Provo, Utah 84604 | (801) 800-3133 | <a href="mailto:nandersen03@gmail.com">nandersen03@gmail.com</a><br>
+            <a href="https://www.linkedin.com/in/nathan-andersen-7b3654202">www.linkedin.com/in/nathan-andersen-7b3654202</a>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="title">Brigham Young University</span>
+                    <span class="location">Provo, UT</span>
+                </div>
+                <div class="job-details">Pursuing a Bachelor's of Accounting</div>
+                <div class="date">Apr 2028</div>
+            </div>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="title">Pleasant Grove High School</span>
+                    <span class="location">Pleasant Grove, UT</span>
+                </div>
+                <div class="date">May 2022</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="title">First Colony Mortgage</span>
+                    <span class="location">Pleasant Grove, UT</span>
+                </div>
+                <div class="job-details">Investor Renewal Coordinator / Reception</div>
+                <div class="date">Sep 2025 - Present</div>
+                <ul>
+                    <li>Interact with investors to provide up to date information</li>
+                    <li>Networking</li>
+                    <li>Pivot tables</li>
+                    <li>Time management</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="title">Murdock Hyundai</span>
+                    <span class="location">Lindon, UT</span>
+                </div>
+                <div class="job-details">Lot Technician & Inventory Assistant Manager</div>
+                <div class="date">Apr 2022 – Sep 2025</div>
+                <ul>
+                    <li>Lead team members to perform with efficiency and high performance</li>
+                    <li>Example-driven leadership</li>
+                    <li>Oversee the movement and organization of 750+ vehicles</li>
+                    <li>Inspect inventory for damage, saving up to $10,000+ in damage repair per vehicle</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="title">First Class Rental</span>
+                    <span class="location">American Fork, UT</span>
+                </div>
+                <div class="job-details">Mechanic / Customer Service</div>
+                <div class="date">Apr 2021 – Sept 2021</div>
+                <ul>
+                    <li>Engaged with customers to give instructions, handle transactions, and gather required documentation</li>
+                </ul>
+            </div>
+    
+        </div>
+
+        <div class="section">
+            <h2>Leadership & Service</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="title">Church of Jesus Christ of Latter-day Saints</span>
+                    <span class="location">Ventura, California</span>
+                </div>
+                <div class="job-details">Missionary</div>
+                <div class="date">Jul 2022 – Jul 2024</div>
+                <ul>
+                    <li>Created strong interpersonal relationships through strong communication</li>
+                    <li>Applied teaching skills and work ethic to encourage and train other missionaries</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="title">Pleasant Grove High School</span>
+                    <span class="location">Pleasant Grove, UT</span>
+                </div>
+                <div class="job-details">Varsity Athlete / Team Captain - Swimming</div>
+                <div class="date">Aug 2018 – May 2022</div>
+                <ul>
+                    <li>Emphasized creating a self-driven team</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Awards, Skills, and Interests</h2>
+            <ul class="awards-list">
+                <li>Business Management (230) Certificate</li>
+                <li>Sports and Entertainment Marketing Certificate</li>
+                <li>Microsoft Excel</li>
+                <li>1st in state Men's 400 Freestyle Relay</li>
+                <li>Quality Assurance</li>
+                <li>Reliability</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
